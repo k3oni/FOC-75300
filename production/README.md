@@ -20,7 +20,7 @@ Pcs | Part | LCSC order no.
 1 | Pre-assembled pcb
 85 | Machine header pins (1 lot of 5pcs 2.54mm Pitch 1x40) | [AliExpress](https://www.aliexpress.com/item/1005005053790061.html?spm=a2g0o.productlist.main.1.432511f785NLip&algo_pvid=b4d21122-d7e1-4aaf-a745-bf3bf17b4737&algo_exp_id=b4d21122-d7e1-4aaf-a745-bf3bf17b4737-0&pdp_npi=4%40dis%21USD%212.24%212.24%21%21%212.24%212.24%21%402103247917128400547083213ea144%2112000031467253751%21sea%21DK%212442285761%21&curPageLogUid=xxXtfYKRo4Qz&utparam-url=scene%3Asearch%7Cquery_from%3A)
 6 or 12 | Mosfets of type CRST030N10N | C841369
-2 | 680uF Aluminum Electrolytic Capacitors D10xL25mm | C443095
+2 | 680uF Aluminum Electrolytic Capacitors D18xL35.5mm | C699524
 3 | Female banana bullet connectors | C99865
 1 | XT90H-M Male battery connector | C3040683
 1 | JST	1x2P 2 pin JST (p=2.0mm) | C7465567
