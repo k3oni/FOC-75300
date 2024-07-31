@@ -20,12 +20,12 @@
 #ifndef HW_FOC_KING_CORE_H_
 #define HW_FOC_KING_CORE_H_
 
-#define HW_NAME				"FOC_KING"
+#define HW_NAME				"FOC_KING_20S"
 
 // HW properties
 #define HW_HAS_3_SHUNTS
 
-// Macros
+// Macro
 #define LED_GREEN_GPIO			GPIOB
 #define LED_GREEN_PIN			5
 #define LED_RED_GPIO			GPIOB
@@ -232,10 +232,10 @@
 
 // Default setting overrides
 #ifndef MCCONF_L_MIN_VOLTAGE
-#define MCCONF_L_MIN_VOLTAGE			14.0	// Minimum input voltage
+#define MCCONF_L_MIN_VOLTAGE			20.0	// Minimum input voltage
 #endif
 #ifndef MCCONF_L_MAX_VOLTAGE
-#define MCCONF_L_MAX_VOLTAGE			75.0	// Maximum input voltage
+#define MCCONF_L_MAX_VOLTAGE			90.0	// Maximum input voltage
 #endif
 #ifndef MCCONF_DEFAULT_MOTOR_TYPE
 #define MCCONF_DEFAULT_MOTOR_TYPE		MOTOR_TYPE_FOC
@@ -260,7 +260,7 @@
 #define HW_LIM_CURRENT			-400.0, 400.0
 #define HW_LIM_CURRENT_IN		-400.0, 400.0
 #define HW_LIM_CURRENT_ABS		0.0, 480.0
-#define HW_LIM_VIN			14.0, 72.0
+#define HW_LIM_VIN			17.0, 92.0
 #define HW_LIM_ERPM			-200e3, 200e3
 #define HW_LIM_DUTY_MIN			0.0, 0.1
 #define HW_LIM_DUTY_MAX			0.0, 0.99
