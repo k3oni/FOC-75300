@@ -24,7 +24,7 @@ The board is intended for "small" electric vehicles like Skateboards, OneWheels,
 The standard design includes 12 mosfets, but it will also work with just 6 fets. You choose.
 
 ## Features
-* 20V/300A continuous rating
+* 90V/300A continuous rating
 * 20s battery voltage rating
 * 3-phase FOC motor control
 * 4-layer pcb design with individual gate drivers for all three phases
