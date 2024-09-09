@@ -8,10 +8,6 @@
 
 [![IMAGE ALT TEXT](https://github.com/nordstream3/FOC/assets/129880401/6b1483e7-21d7-4d83-af18-93e87dd7afbc)](http://www.youtube.com/watch?v=JBFUDh6qiMs "FreeDRIVE")
 
-Date | Manufacturer | amount | includes | shipping & tax | price
-| -------- | -------- | -------- | -------- | -------- | -------- |
-2024-01-17 | JLCPCB | 10 boards | All assembled excl fets and caps | YES, to EU | $241.08
-
 FreeDrive is an open-source motor controller board based on a JLCPCB friendly [VESC6 75V/300A](https://vesc-project.com/sites/default/files/Benjamin%20Posts/vesc_75_300.pdf) so-called "driverless" design with individual gate drivers for all three phases. It is powered by an STM32F405 MCU and is capable of running FOC at high power and voltages.
 
 FreeDrive is a motor controller designed for FOC (Field Oriented Control) and HFI (High Frequency Injection), a sensorless teqnique enabling full torque at zero speed without sensor feedback. The hardware is separated in 3 sub-modules which are assembled using standard pin headers.
@@ -28,8 +24,8 @@ The board is intended for "small" electric vehicles like Skateboards, OneWheels,
 The standard design includes 12 mosfets, but it will also work with just 6 fets. You choose.
 
 ## Features
-* 75V/300A continuous rating
-* 18s battery voltage rating
+* 20V/300A continuous rating
+* 20s battery voltage rating
 * 3-phase FOC motor control
 * 4-layer pcb design with individual gate drivers for all three phases
 * STM32F405 MCU
